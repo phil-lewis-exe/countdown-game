@@ -1,10 +1,58 @@
-# Programming in Python
+# Countdown
 
-This repository has been set up as a space that you can use while studying the Programming in Python lecture series taught by the Department of Computer Science at the University of Exeter.
+## Plan to code the game
+data needed: 
+english word list, alphabet letter lists,
+player names, player scores
 
-The content is divided into ten sessions voering different topics in Python programming and software development. 
+play_full_game()
+ - ask player names
+ - play sequence of games
+ - keep track of scores
+ - announce winner
 
- - The **`lectures`** folder is a space where you can add code / notes / resources as you follow the lectures. 
- - The **`workspace`** folder is a space where you can complete any other coding activity that does not have its own repository.
+play_letter_game()
+- user input consonant vowel set
+- timer
+- user input their words
+- check if its valid
+- score the words and assign scores, and display message
+- send scores back (tuple play 1 score, player 2 score)
 
-The lecture and workspace folders have been set up with sub-folders for each session to help you to organise your work. For students working in CodeSpaces you must note that this is a temporary space, and you must push all your work to the permanent storage in the GitHub repository using the Source Control panel.
+ask_for_letter_choice()
+- user input consonant vowel set
+- return (list of characters, / string)
+
+input_word()
+- ask user to give word
+- check if valid
+- return 0 or score if valid
+
+
+play_number_game()
+- user input small or big numbers
+- generate target number
+- timer
+- user input their calculations
+- check if its valid
+- score the calculations and assign scores, and display message
+- send scores back (tuple play 1 score, player 2 score)
+
+play_conumdrum
+- select a conumdrum
+- show it to players
+- timer?
+- take input - player name, player guess
+- if guess wrong allow other player to guess
+- score result
+- return scores
+
+
+
+## What is going to be tricky
+
+Getting a list of all valid english words (loading files covered in two weeks)
+Selecting random letters from a set of consonants or vowels
+
+
+
