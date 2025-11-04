@@ -1,5 +1,4 @@
 # Countdown
-
 ## Plan to code the game
 data needed: 
 english word list, alphabet letter lists,
